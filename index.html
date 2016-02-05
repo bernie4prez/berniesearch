@@ -22,11 +22,11 @@
         <input class="input" type="text" name="q" id="field" autofocus>
         <div class="buttons">
           <input type="submit" class="button" id="x1" name="x1" value="Google"> 
-          <input type="submit" class="button" id="x2" name="x2" value="Bing">
+          <input type="submit" class="button" id="x2" name="x2" value="Reddit">
           <input type="submit" class="button" id="x5" name="x5" value="News"> 
           <input type="submit" class="button" id="x6" name="x6" value="YouTube">
           <input type="submit" class="button" id="x3" name="x3" value="Twitter"> 
-          <input type="submit" class="button" id="x4" name="x4" value="Duck">
+          <input type="submit" class="button" id="x4" name="x4" value="Tumblr">
           
         </div>
       </form>
@@ -44,10 +44,10 @@ if (x=="Google")
  window.location = "https://google.com/search?q=Bernie%20Sanders%20" + $(".input").val();
 
 }
-if (x=="Bing")
+if (x=="Reddit")
 {
 
- window.location = "https://bing.com/search?q=Bernie%20Sanders%20" + $(".input").val();
+ window.location = "https://www.reddit.com/search?q=Bernie+Sanders" + $(".input").val();
 
 }
 if (x=="News")
@@ -63,10 +63,10 @@ if (x=="YouTube")
 
 }
 
-if (x=="Duck")
+if (x=="Tumblr")
 {
 
- window.location = "https://duckduckgo.com/?q=Bernie%20Sanders%20" + $(".input").val();
+ window.location = "https://www.tumblr.com/search/Bernie+Sanders" + $(".input").val();
 
 }
 
